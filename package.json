@@ -1,0 +1,23 @@
+{
+  "name": "image-magic",
+  "version": "0.0.4",
+  "description": "图片处理组件，提供自动合并雪碧图、压缩图片大小、尺寸缩放等方法。",
+  "main": "index.js",
+  "dependencies": {
+    "images":"2.1.8",
+    "gm":"1.21.1",
+    "crypto":"0.0.3",
+    "lang-utils":"^0.0.2",
+    "file-plus":"^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tick",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  }
+}
