@@ -6,13 +6,14 @@ var platform = os.platform();
 
 
 if(platform == 'linux'){
+    console.warn('请手动安装images@2.1.8 \n\tnpm install images@2.1.8');
     run('npm install images@2.1.8',{
         cwd: require('path').resolve(__dirname, '../..')
     })
 }else{
-    run('npm' + (platform == 'win32' ? '.cmd' : '') + ' install images',{
-        cwd: require('path').resolve(__dirname, '../..')
-    })
+    // run('npm' + (platform == 'win32' ? '.cmd' : '') + ' install images',{
+    //     cwd: require('path').resolve(__dirname, '../..')
+    // })
 }
 
 function run(command, opt) {
